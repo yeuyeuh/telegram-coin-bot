@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
 
-const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
+const bot = new Telegraf("6324758381:AAGEh9O7I5yMFrDloRNAM0rcyYe0QH24Wz8");
 
 bot.start((ctx) => ctx.reply('Bienvenue! Envoyez /price <nom-de-la-crypto> pour obtenir le prix.'));
 
